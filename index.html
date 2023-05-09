@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="calculator-display">0</div>
-      <div class="calculator-keys">
-        <button class="operator-keys" data-action="add">+</button>
-        <button class="operator-keys" data-action="subtract">-</button>
-        <button class="operator-keys" data-action="multiply">&times;</button>
-        <button class="operator-keys" data-action="divide">&#247;</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="left-end">0</button>
-        <button data-action="decimal">.</button>
-        <button data-action="clear">AC</button>
-        <button class="equal-btn" data-action="calculate">=</button>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="output">
+        </section>
+        <section class="input">
+            <div class="num1">1</div>
+            <div class="num2">2</div>
+            <div class="num3">3</div>
+            <div class="add">+</div>
+            <div class="num4">4</div>
+            <div class="num5">5</div>
+            <div class="num6">6</div>
+            <div class="subtract">-</div>
+            <div class="num7">7</div>
+            <div class="num8">8</div>
+            <div class="num9">9</div>
+            <div class="multiply">x</div>
+            <div class="num0">0</div>
+            <div class="dot">.</div>
+            <div class="equal">=</div>
+            <div class="divide">/</div>
+        </section>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
